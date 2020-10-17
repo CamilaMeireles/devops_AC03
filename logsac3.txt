@@ -1,0 +1,23 @@
+2020-10-17T04:14:19.494578+00:00 app[api]: Initial release by user camila.silva@aluno.faculdadeimpacta.com.br
+2020-10-17T04:14:19.494578+00:00 app[api]: Release v1 created by user camila.silva@aluno.faculdadeimpacta.com.br
+2020-10-17T04:14:19.665341+00:00 app[api]: Release v2 created by user camila.silva@aluno.faculdadeimpacta.com.br
+2020-10-17T04:14:19.665341+00:00 app[api]: Enable Logplex by user camila.silva@aluno.faculdadeimpacta.com.br
+2020-10-17T04:15:59.000000+00:00 app[api]: Build started by user camila.silva@aluno.faculdadeimpacta.com.br
+2020-10-17T04:16:25.246292+00:00 app[api]: Deploy 0ff7ece9 by user camila.silva@aluno.faculdadeimpacta.com.br
+2020-10-17T04:16:25.246292+00:00 app[api]: Release v3 created by user camila.silva@aluno.faculdadeimpacta.com.br
+2020-10-17T04:16:25.323902+00:00 app[api]: Scaled to web@1:Free by user camila.silva@aluno.faculdadeimpacta.com.br
+2020-10-17T04:16:28.823229+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-17T04:16:31.666651+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-17T04:16:31.666672+00:00 app[web.1]: * Environment: production
+2020-10-17T04:16:31.666679+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-17T04:16:31.666726+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-17T04:16:31.666797+00:00 app[web.1]: * Debug mode: off
+2020-10-17T04:16:31.678557+00:00 app[web.1]: * Running on http://0.0.0.0:14800/ (Press CTRL+C to quit)
+2020-10-17T04:16:33.167594+00:00 heroku[web.1]: State changed from starting to up
+2020-10-17T04:16:34.000000+00:00 app[api]: Build succeeded
+2020-10-17T04:18:21.524070+00:00 app[web.1]: 10.181.29.40 - - [17/Oct/2020 04:18:21] "GET / HTTP/1.1" 200 -
+2020-10-17T04:18:21.525086+00:00 heroku[router]: at=info method=GET path="/" host=sleepy-reef-74510.herokuapp.com request_id=9d7d9de9-fc9a-459d-bce8-e86a664da453 fwd="45.189.68.147" dyno=web.1 connect=0ms service=6ms status=200 bytes=566 protocol=https
+2020-10-17T04:18:21.836204+00:00 app[web.1]: 10.181.29.40 - - [17/Oct/2020 04:18:21] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-17T04:18:21.837416+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=sleepy-reef-74510.herokuapp.com request_id=d50b61b1-e24a-47de-aa58-af61203dc12f fwd="45.189.68.147" dyno=web.1 connect=0ms service=11ms status=404 bytes=379 protocol=https
+2020-10-17T04:19:04.960844+00:00 app[web.1]: 10.109.166.130 - - [17/Oct/2020 04:19:04] "GET / HTTP/1.1" 200 -
+2020-10-17T04:19:04.962559+00:00 heroku[router]: at=info method=GET path="/" host=sleepy-reef-74510.herokuapp.com request_id=04b5616d-a0f4-496c-a1e9-b8dd9728a56c fwd="45.189.68.147" dyno=web.1 connect=1ms service=6ms status=200 bytes=566 protocol=https
